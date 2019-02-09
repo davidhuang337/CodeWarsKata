@@ -1,0 +1,2 @@
+# CodeWarsKata
+Training of CodeWarsKata
