@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace _5kyu
 {
     [TestClass]
-    public class SimplePigLatinUnitTest
+    public class SimplePigLatinTest
     {
         [TestMethod]
         [DataRow("Pig latin is cool", "igPay atinlay siay oolcay")]
@@ -12,7 +12,6 @@ namespace _5kyu
         public void PigIt_should_success(string input, string expected)
         {
             Assert.AreEqual(expected, SimplePigLatin.PigIt(input));
-
         }
     }
 }
